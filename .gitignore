@@ -1,0 +1,13 @@
+
+Makefile
+stamp-h1
+config.log
+config.status
+.deps
+.libs
+*.cache
+src/*~
+*.o
+*.lo
+*.a
+*.la
