@@ -46,8 +46,8 @@ class ThreadOps {
   static unsigned int __stdcall _dispatch(void*);
 
   //! TID while the thread is executing.
-  HANDLE _hThread;
   DWORD _tid;
+  HANDLE _hThread;
 
   ThreadOps(DWORD tid) : _tid(tid) { }
 
