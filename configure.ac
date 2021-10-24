@@ -77,6 +77,7 @@ dnl Setup compiler/linker options based on the target type
 case "$target" in
 *-*-mingw32*)
     dnl MingW32 should use native win32 threads
+    LINKER_OPTIONS="-no-undefined"
     ;;
 *-apple-darwin*)
     dnl Use the Mac multiprocessing library
