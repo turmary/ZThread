@@ -36,7 +36,7 @@ systems, go to http://pauillac.inria.fr/~xleroy/linuxthreads/.
 GNU Pth can also be used if it was configured with --enable-pthread.
 EOF
 
-AC_DEFUN(AM_DETECT_PTHREAD,
+AC_DEFUN([AM_DETECT_PTHREAD],
 [
 
 pthread_explicit="no"

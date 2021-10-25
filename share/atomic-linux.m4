@@ -39,7 +39,7 @@ EOF
 
 atomic_linux_explicit="no"
 
-AC_DEFUN(AM_ENABLE_ATOMIC_LINUX,
+AC_DEFUN([AM_ENABLE_ATOMIC_LINUX],
 [AC_ARG_ENABLE(atomic-linux,
 	AC_HELP_STRING([--enable-atomic-linux],
 		       [use linux atomic instructions [default=no]]),

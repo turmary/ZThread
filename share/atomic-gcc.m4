@@ -35,7 +35,7 @@ EOF
 
 atomic_gcc_explicit="no"
 
-AC_DEFUN(AM_ENABLE_ATOMIC_GCC,
+AC_DEFUN([AM_ENABLE_ATOMIC_GCC],
 [AC_ARG_ENABLE(atomic-gcc,
 	AC_HELP_STRING([--enable-atomic-gcc],
 		       [use gcc atomic instructions [default=no]]),

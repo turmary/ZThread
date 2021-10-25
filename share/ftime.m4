@@ -35,7 +35,7 @@ EOF
 
 have_ftime="detect"
 
-AC_DEFUN(AM_DETECT_FTIME,
+AC_DEFUN([AM_DETECT_FTIME],
 [
 
  AC_ARG_WITH(ftime,
